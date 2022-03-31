@@ -1,0 +1,8 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 56: non-keyword arg after keyword arg
+
+Ren'Py Version: Ren'Py 7.4.11.2266
+Wed Mar 23 21:56:55 2022

@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 74, in script
+    e "You've created a new Ren'Py game."
+ScriptError: could not find label ''.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "/Users/jax/Desktop/renpy-7.4.11-sdk/renpy/bootstrap.py", line 331, in bootstrap
+    renpy.main.main()
+  File "/Users/jax/Desktop/renpy-7.4.11-sdk/renpy/main.py", line 662, in main
+    run(restart)
+  File "/Users/jax/Desktop/renpy-7.4.11-sdk/renpy/main.py", line 148, in run
+    renpy.execution.run_context(True)
+  File "/Users/jax/Desktop/renpy-7.4.11-sdk/renpy/execution.py", line 922, in run_context
+    context.run()
+  File "game/script.rpy", line 74, in script
+    e "You've created a new Ren'Py game."
+  File "/Users/jax/Desktop/renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label ''.
+
+Darwin-21.2.0-x86_64-i386-64bit
+Ren'Py 7.4.11.2266
+inventory take 2 1.0
+Wed Mar 23 21:56:19 2022
